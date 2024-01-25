@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #111;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #666;
+}
+
+
+.container {
+  text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+  /*display: flex;
+  flex-direction: column;
+  align-items: center;*/
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center;
+}
+
+.enter-button {
+  background-color: purple;
+  color: white;
+  font-size: 30px;
+  margin-top: 50px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.claim-button {
+  background-color: purple;
+  color: white;
+  font-size: 30px;
+ 
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.welcome-container {
+  position: relative;
+  margin: 20px auto;
+  margin-top: 70px;
+  padding: 20px;
+  background:linear-gradient(to bottom,purple,black);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+
+
+.welcome-content {
+  position: relative;
+  z-index: 1;
+}
+
+.exciting-text {
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.dreams-come-true {
+  font-size: 24px;
+  color: #fff;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.entry-fee{
+  font-size: 20px;
+  color:#fff;
+  margin-bottom: 10px;
+}
+.good-luck{
+  font-size: 30px;
+  color:#fff;
+
+}
+.navbar 
+{
+  background-color: purple;
+}
+
+.notowner
+{
+  margin-top: 50px;
+  color: black;
+  font-size: 30px;
+}
